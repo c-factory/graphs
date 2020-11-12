@@ -1,0 +1,15 @@
+{
+    "name": "graphs",
+    "description": "Structures and algorithms for graph processing implemented in the C language",
+    "author": "c factory",
+    "type": "library",
+    "sources": "src/*.c",
+    "headers": "include",
+    "depends":
+    [
+        {
+            "name": "collections",
+            "url": ["../collections", "https://github.com/c-factory/collections.git"]
+        }
+    ]
+}
